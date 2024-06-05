@@ -119,8 +119,3 @@ def correct_holm(humans,llms):
     # return significant variable names, significant corrected pvals
     return sig_corrected_variables, bonf[1][bonf[0]]
 
-# Batching -- Embeddings Pipeline
-def batch(iterable, n=1):
-    l = len(iterable)
-    for ndx in range(0,l,n):
-        yield iterable[ndx:min(ndx+n,l)]
