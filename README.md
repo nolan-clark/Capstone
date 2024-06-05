@@ -30,9 +30,21 @@ Support Vector Machine (SVM), Gaussian Naïve Bayes, Multi-Layer Perceptron, Dec
 
 Model performance was compared by accuracy, precision, recall, F1-score, and ROC-AUC. The final model chosen was the best model from the third series, which performed approximately as well as the other two predictor groups.
 
+### Model Performance
+
+|       |           |           |            |          |
+|-------|-----------|-----------|------------|----------|
+| Group | Accuracy  | Precision | Recall     | F1 Score |
+| 1     | 0.929336  | 0.943304  | 0.885417   | 0.912827 |
+| 2     | 0.897030  | 0.906775  |  0.838221  | 0.870157 |
+| 3     | 0.878292  | 0.881288  | 0.819351   | 0.847633 |
+
 ## SHAP Explanations
 
 SHAP explanations were generated for the final model to interpret feature importance of the model as a whole, and decisions for individual predictions. An interesting takeaway in model predictions was the difference in lengthy words between students and LLMs. More specifically, the percentage of words longer than six letters was higher in LLMs. 
+
+![Alt text](Picture1.png)
+
 
 Example of implementation can be found in demo.ipynb.
 
