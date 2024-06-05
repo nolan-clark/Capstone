@@ -46,7 +46,7 @@ SHAP explanations were generated for the final model to interpret feature import
 ![Alt text](Picture1.png)
 
 
-Example of implementation can be found in demo.ipynb.
+Example of implementation and more in-depth model comparison can be found in [demo.ipynb](Examples/demo.ipynb).
 
 ## Collaborators
 A special thank you to Dr. Catherine Pollack and Dr. Catherine Schwartz from the Johns Hopkins University Applied Physics Laboratory for their mentorship and collaboration on this project!
